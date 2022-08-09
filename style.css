@@ -1,0 +1,181 @@
+html{
+    background-color: #E5E5E5;
+}
+
+p {
+    font-family: Calibri, sans-serif, monospace;
+}
+header > img {
+    padding: 10px 0 0 20px;
+    width: 20px;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 100%;
+}
+
+.btn {
+    padding: 1.2rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.btn-primary {
+    border: none;
+    background-color: #0A3871;
+    color: #FFFFFF;
+}
+
+.btn-secondary {
+    border: 1px solid #0A3871;
+    background-color: #FFFFFF;
+    color: #0A3871;
+}
+
+.menu {
+    display: none;
+}
+
+.add-new-word {
+    display: none;
+    width: 60%;
+}
+
+.game {
+    display: none;
+}
+
+.div-btn-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.div-btn-row > button {
+    display: block;
+    height: 100%;
+}
+
+textarea {
+    background-color: rgb(0,0,0,0);
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 1.5em;
+    padding: 1.2rem;
+    color: #0A3871;
+}
+
+::placeholder{
+    color: #0A3871;
+    opacity: 1;
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+span > p {
+    margin: 0 5px;
+}
+
+.game{
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.forca{
+    width: 15rem;
+}
+
+.letras-erradas-container{
+    color: #495057;
+    font-family: Calibri, sans-serif, monospace;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.letras{
+    display: flex;
+    justify-content: space-around;
+}
+
+.r-letter{
+    color: #0A3871;
+    font-family: Calibri, sans-serif, monospace;
+    font-size: 2.5rem;
+    margin: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 25px;
+    align-items: center;
+}
+
+.base-letras > img {
+    width: 60px;
+    margin: 5px;
+}
+
+.forca-corpo{
+    display: none;
+}
+
+.forca-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result p {
+    font-size: 2rem;
+    font-family: Calibri, sans-serif, monospace;
+    margin: 5px;
+}
+
+.winner{
+    color: rgb(31, 129, 35);
+}
+
+.looser{
+    color: rgb(210, 24, 32);
+}
